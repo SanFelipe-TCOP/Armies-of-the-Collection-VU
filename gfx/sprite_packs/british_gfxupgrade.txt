@@ -3,6 +3,7 @@ British_units = {
 	country_trigger = {
 		OR = {
 			tag = GBR
+			tag = UNK
 		}
 	}
 	
@@ -36,8 +37,10 @@ British_Africa_colonial_units = {
 		OR = {
 			tag = ENG
 			tag = GBR
+			tag = UNK
 			is_colonial_nation_of = ENG
 			is_colonial_nation_of = GBR
+			is_colonial_nation_of = UNK
 		}
 	}
 
@@ -75,8 +78,10 @@ British_America_colonial_units = {
 		OR = {
 			tag = ENG
 			tag = GBR
+			tag = UNK
 			is_colonial_nation_of = ENG
 			is_colonial_nation_of = GBR
+			is_colonial_nation_of = UNK
 		}
 	}
 
@@ -117,8 +122,10 @@ British_Asia_colonial_units = {
 		OR = {
 			tag = ENG
 			tag = GBR
+			tag = UNK
 			is_colonial_nation_of = ENG
 			is_colonial_nation_of = GBR
+			is_colonial_nation_of = UNK
 		}
 	}
 
@@ -155,8 +162,10 @@ British_oceania_colonial_units = {
 		OR = {
 			tag = ENG
 			tag = GBR
+			tag = UNK
 			is_colonial_nation_of = ENG
 			is_colonial_nation_of = GBR
+			is_colonial_nation_of = UNK
 		}
 	}
 
@@ -188,11 +197,9 @@ British_oceania_colonial_units = {
 
 Australia_colonial_units = {
 	available_for_custom_nation = no
-
+	
 	country_trigger = {
-		OR = {
-			tag = AUS
-		}
+		tag = AUS
 	}
 	
 	sprite_infantry = {
@@ -218,11 +225,9 @@ Australia_colonial_units = {
 }
 
 Brittany_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = GBR
-		}
+		tag = BRI
 	}
 	
 	country_trigger = {
@@ -251,11 +256,9 @@ Brittany_units = {
 
 Canada_units = {
 	available_for_custom_nation = no
-
+	
 	country_trigger = {
-		OR = {
-			tag = CAN
-		}
+		tag = CAN
 	}
 	
 	sprite_infantry = {
@@ -281,11 +284,9 @@ Canada_units = {
 }
 
 Clanricarde_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = CNN
-		}
+		tag = CNN
 	}
 	
 	sprite_infantry = {
@@ -311,11 +312,9 @@ Clanricarde_units = {
 }
 
 Cornwall_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = CRN
-		}
+		tag = CRN
 	}
 	
 	sprite_infantry = {
@@ -341,11 +340,9 @@ Cornwall_units = {
 }
 
 Desmond_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = DMS
-		}
+		tag = DMS
 	}
 	
 	sprite_infantry = {
@@ -403,11 +400,9 @@ Highlanders_units = {
 }
 
 Ireland_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = IRE
-		}
+		tag = IRE
 	}
 	
 	sprite_infantry = {
@@ -495,11 +490,9 @@ Leinster_units = {
 }
 
 Mann_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = KOI
-		}
+		tag = KOI
 	}
 	
 	sprite_infantry = {
@@ -526,11 +519,9 @@ Mann_units = {
 
 
 Meath_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = MTH
-		}
+		tag = MTH
 	}
 	
 	sprite_infantry = {
@@ -557,11 +548,9 @@ Meath_units = {
 
 
 Normandy_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = NRM
-		}
+		tag = NRM
 	}
 	
 	sprite_infantry = {
@@ -588,11 +577,9 @@ Normandy_units = {
 
 
 Northumberland_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = NOL
-		}
+		tag = NOL
 	}
 	
 	sprite_infantry = {
@@ -618,11 +605,9 @@ Northumberland_units = {
 }
 
 Scotland_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = SCO
-		}
+		tag = SCO
 	}
 	
 	sprite_infantry = {
@@ -646,11 +631,9 @@ Scotland_units = {
 
 
 Sligo_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = SLN
-		}
+		tag = SLN
 	}
 	
 	sprite_infantry = {
@@ -676,11 +659,9 @@ Sligo_units = {
 }
 
 Thomond_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = MNS
-		}
+		tag = MNS
 	}
 	
 	sprite_infantry = {
@@ -707,11 +688,9 @@ Thomond_units = {
 
 
 Munster_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = MCM
-		}
+		tag = MCM
 	}
 	
 	sprite_infantry = {
@@ -738,11 +717,9 @@ Munster_units = {
 
 
 Tyrconnell_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = TRY
-		}
+		tag = TRY
 	}
 	
 	sprite_infantry = {
@@ -768,11 +745,9 @@ Tyrconnell_units = {
 }
 
 Tyrone_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = TYR
-		}
+		tag = TYR
 	}
 	
 	sprite_infantry = {
@@ -798,11 +773,9 @@ Tyrone_units = {
 }
 
 Ulster_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = ULS
-		}
+		tag = ULS
 	}
 	
 	sprite_infantry = {
@@ -828,11 +801,9 @@ Ulster_units = {
 }
 
 Wales_units = {
-
+	
 	country_trigger = {
-		OR = {
-			tag = WLS
-		}
+		tag = WLS
 	}
 	
 	sprite_infantry = {
