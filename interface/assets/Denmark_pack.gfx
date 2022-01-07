@@ -34,7 +34,7 @@ pdxmesh = {
 		animation = { id = "death"				type = "polearm_twohanded_death_animation" }
 		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
 
-		scale = 0.7
+		scale = 0.35
 	}
 
 pdxmesh = {
@@ -60,7 +60,7 @@ pdxmesh = {
 		animation = { id = "death"				type = "rifleman_death_animation" }
 		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 
-		scale = 0.7
+		scale = 0.35
 	}
 
 pdxmesh = {
@@ -86,7 +86,7 @@ pdxmesh = {
 		animation = { id = "death"				type = "rifleman_death_animation" }
 		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 
-		scale = 0.7
+		scale = 0.35
 	}
 
         ###################################################################################################################

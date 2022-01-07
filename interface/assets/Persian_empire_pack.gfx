@@ -26,7 +26,7 @@ pdxmesh = {
 		animation = { id = "walk"				type = "spear_shield_moving_animation" }
 		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
 
-		scale = 0.7
+		scale = 0.35
 	}
 
 pdxmesh = {
@@ -52,7 +52,7 @@ pdxmesh = {
 		animation = { id = "walk"				type = "medieval_club_and_shield_moving_animation" }
 		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
 		
-		scale = 0.7
+		scale = 0.35
 	}
 
 pdxmesh = {
@@ -78,7 +78,7 @@ pdxmesh = {
 		animation = { id = "walk"				type = "medieval_club_and_shield_moving_animation" }
 		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
 		
-		scale = 0.7
+		scale = 0.35
 	}
 
 pdxmesh = {
@@ -104,7 +104,7 @@ pdxmesh = {
 		animation = { id = "death"				type = "rifleman_death_animation" }
 		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 
-		scale = 0.7
+		scale = 0.35
 	}
 
         ###################################################################################################################

@@ -185,7 +185,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "JAP_galley_03_mesh"
 		file = "gfx\models\ships\JAP_galley_03.mesh"
-		scale = 0.7
+		scale = 0.35
 		
 		animation = { id = "idle"	type = "JAP_galley_03_idle_animation" }
 		animation = { id = "walk"	type = "JAP_galley_03_walk_animation" }
