@@ -49,7 +49,7 @@ pdxmesh = {
 
 		animation = { id = "artillery_attack"	type = "idle_animation_hre" }
 
-		scale = 0.7
+		scale = 0.35
 	}
 
 
